@@ -1,4 +1,4 @@
 def demo_func(x , y , z):
-  x=x+y+x
-  return x
+    return x+y+z
+
 print(demo_funct(1, 2, 3))  
