@@ -1,3 +1,3 @@
 # GCP-application-chile
-An application intended to be hosted in the GCP for predicting Chilean housing prices 
-The current code is for a demo that show's I've implemented a CI system. I'm going to use GitHub Actions for my CI
+An application intended to be hosted in the GCP for predicting Chilean housing prices. Currently, it calls a model from BigQuery for prediction.
+It relies on flask for the server and runs in production in the GCP. I use a local environment for developement.  
