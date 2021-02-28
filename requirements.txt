@@ -2,3 +2,9 @@ pytest
 pylint
 black
 flask
+gunicorn
+numpy
+google.cloud
+google.auth
+google-cloud-automl
+json
