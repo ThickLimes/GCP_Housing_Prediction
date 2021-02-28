@@ -4,14 +4,14 @@ import os
 from google.cloud import automl
 from google.auth import compute_engine
 
-credentials1 = compute_engine.Credentials()
+
 
 # (developer): Uncomment and set the following variables
 project_id = 'gcp-chili-project'
 compute_region = 'us-central1'
 model_id = 'backup_plan_20210227040744'
 
-client = automl.AutoMlClient(credentials=credentials1)
+client = automl.AutoMlClient()
 # Get the full path of the model.
 model_full_id = client.model_path(project_id, "us-central1", model_id)
 response = client.deploy_model(name=model_full_id)
