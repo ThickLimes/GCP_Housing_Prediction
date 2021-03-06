@@ -3,13 +3,13 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_howdy.py
+	python -m pytest -vv test_etl_ex.py
 
 format:
 	black *.py
 
 
 lint:
-	pylint --disable=R,C howdy.py
+	pylint --disable=R,C app.py
 
 All: install lint test
