@@ -2,8 +2,8 @@
 from flask import Flask, escape, request, jsonify
 import numpy as np
 from google.cloud import automl_v1beta1 as automl
-import google.auth
-from google.oauth2 import service_account
+#import google.auth
+#from google.oauth2 import service_account
 
 project_id = 'gcp-chili-project'
 compute_region = 'us-central1'
