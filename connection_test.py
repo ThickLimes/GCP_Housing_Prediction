@@ -22,3 +22,6 @@ response = client.deploy_model(model_display_name=model_display_name)
 
 # returns status
 print("Model deployed. {}".format(response.result()))
+
+def con_test():
+    assert deployment_state == "deployed"
