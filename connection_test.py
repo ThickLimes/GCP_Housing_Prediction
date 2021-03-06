@@ -20,5 +20,5 @@ print(deployment_state)
 
 response = client.deploy_model(model_display_name=model_display_name)
 
-# synchronous check of operation status.
+# returns status
 print("Model deployed. {}".format(response.result()))
