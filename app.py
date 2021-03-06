@@ -1,6 +1,6 @@
 # this file runs the application, it doesn't require an authentication method because it uses the native Google Authentication when deployed in the App Engine
 from flask import Flask, escape, request, jsonify
-import numpy as np
+#import numpy as np
 from google.cloud import automl_v1beta1 as automl
 #import google.auth
 #from google.oauth2 import service_account
