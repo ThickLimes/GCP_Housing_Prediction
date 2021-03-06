@@ -4,8 +4,8 @@ from google.oauth2 import service_account
 project_id = 'gcp-chili-project'
 compute_region = 'us-central1'
 model_display_name = 'backup_plan_20210227040744'
-alt_model_display='backup_plan_alt'
-t=service_account.Credentials.from_service_account_file(r'C:\Users\logan\PycharmProjects\GCP-application-chile\gcp-chili-project-da83c37a90e5.json')
+
+t=service_account.Credentials.from_service_account_file('ACC CRED HERE')
 model_id = 'backup_plan_20210227040744'
 
 client = automl.TablesClient(credentials=t,project=project_id, region=compute_region)
