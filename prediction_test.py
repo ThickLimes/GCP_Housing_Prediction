@@ -14,7 +14,7 @@ model_id = 'backup_plan_20210227040744'
 
 
 
-url = 'https://github.com/caminofinancial/data-eng-take-home/blob/master/prequalresult.json'
+url = 'https://raw.githubusercontent.com/ThickLimes/GCP-application-chile/main/test_ex2.json'
 
 resp = requests.get(url)
 resp_parsed = re.sub(r'^jsonp\d+\(|\)\s+$', '', resp.text)
