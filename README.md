@@ -1,4 +1,5 @@
-# GCP-application-chile
+# GCP_Housing_Prediction
+
 This application was developed to be able to perform housing price predictions based on a variety of factors. These factors include everything from the amount of rooms to the size of the lot to the type of roof. The model was developed by using a dataset of housing prices from Ames, Iowa. This data set contains around 80 variables that are used in the model. The application is hosted in the Google Cloud Platform (GCP) which is a cloud service provided by Google. The code for this application is written in Python.
 
 The purpose of this application is to provide assistance to home buyers and sellers. Deciding on the price of a home can be complicated and murky, so this application was developed to provide fair and accurate price prediction. It will be most valuable to use this prediction in negotiations to serve as a point of reference for the sale price. 
